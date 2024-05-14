@@ -18,8 +18,8 @@ Beautice is a sleek and responsive user interface for a Clinic and Beauty consul
 ## Setup
 1. Clone the repository:
   ```sh
-   git clone https://github.com/your-username/beautice.git
-   ```
+  git clone https://github.com/your-username/beautice.git
+  ```
 2. Navigate to the project directory:
    ```sh
    cd beautice
