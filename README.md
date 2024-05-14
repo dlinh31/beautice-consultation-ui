@@ -17,20 +17,20 @@ Beautice is a sleek and responsive user interface for a Clinic and Beauty consul
 
 ## Setup
 1. Clone the repository:
-   \`\`\`sh
+  ```sh
    git clone https://github.com/your-username/beautice.git
-   \`\`\`
+   ```
 2. Navigate to the project directory:
-   \`\`\`sh
+   ```sh
    cd beautice
-   \`\`\`
+   ```
 3. Open \`index.html\` in your web browser to view the project.
 
 ## Responsive Design
 Uses CSS media queries to ensure optimal viewing on all devices. The navigation menu transforms into a hamburger menu on smaller screens.
 
 ## File Structure
-\`\`\`
+```
 beautice/
 │
 ├── resources/
@@ -41,5 +41,4 @@ beautice/
 │       └── script.js
 │
 └── index.html
-\`\`\`
-
+```
