@@ -780,6 +780,34 @@ body::-webkit-scrollbar {
 } 
 
 
+.scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 70px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: var(--tertiary-text-color);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.scrollToTopBtn:hover {
+
+    filter: brightness(90%);
+}
+
+.scrollToTopBtn.show {
+    display: block;
+}
+
 @media (max-width: 1024px) {
     :root {
         padding-left: 0rem;
