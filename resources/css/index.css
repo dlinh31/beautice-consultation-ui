@@ -645,15 +645,6 @@ body::-webkit-scrollbar {
     
 }
 
-/* .footer--bg-container {
-    position: relative;
-    margin-left: -9rem;
-    margin-top: 40rem;
-    width: 100vw;
-    overflow:visible
-}
- */
-
 
 .slide-background-footer {
     position: relative;
@@ -669,8 +660,6 @@ body::-webkit-scrollbar {
     justify-content: space-between;
     margin-top: 17.3rem;
     max-width: 1440px;
-
-
     overflow: visible;
 }
 .footer::before {
