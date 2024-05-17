@@ -129,6 +129,7 @@ body::-webkit-scrollbar {
 }
 
 .btn {
+    cursor: pointer;
     border-radius: 50px;
     padding: 0.875rem 2.5625rem;
     margin-top: 0.15rem;
@@ -176,6 +177,7 @@ body::-webkit-scrollbar {
     letter-spacing: 0.1rem;
 }
 .btn-detail {
+    cursor: pointer;
     border-radius: 50px;
     padding: 1rem 2.5625rem;
     margin-top: 0.15rem;
@@ -669,8 +671,6 @@ body::-webkit-scrollbar {
     justify-content: space-between;
     margin-top: 17.3rem;
     max-width: 1440px;
-
-
     overflow: visible;
 }
 .footer::before {
@@ -938,6 +938,9 @@ body::-webkit-scrollbar {
     .second-section--title {
         padding: 0rem 1rem;
     }
+    .second-section--text {
+        padding: 0rem;
+    }
     .cards-section {
         padding: 2rem 2rem;
         gap: 1rem;
@@ -992,6 +995,7 @@ body::-webkit-scrollbar {
     }
     .second-section--text {
         font-size: 0.875rem;
+        
     }
     .cards-section {
         padding: 1rem 1rem;
