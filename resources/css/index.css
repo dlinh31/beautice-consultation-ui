@@ -586,9 +586,7 @@ body::-webkit-scrollbar {
     width: 100%;
 }
 
-/* .input-group input {
-    flex: 1;
-} */
+
 #inquirylong {
     padding-top: 1.5825rem;
     max-height: 12.25rem;
@@ -605,7 +603,7 @@ body::-webkit-scrollbar {
     border: 1px solid #ccc;
     border-radius: 0.9375rem;
     font-family: 'Poppins', sans-serif;
-    color: rgba(197, 197, 197, 1);
+    color: rgb(0, 0, 0);
     border-color: rgba(217, 221, 254, 1);
     font-weight: 400;
     letter-spacing: 0.1rem;
