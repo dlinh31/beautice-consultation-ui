@@ -849,6 +849,7 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 1024px) {
+    
     .navbar {
         padding: 1rem 4rem;
         margin-top: 1rem;
@@ -943,7 +944,9 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 768px) {
-    
+    img {
+        overflow: hidden;
+    }
     .navbar {
         padding: 1rem 2rem;
     }
@@ -1010,9 +1013,7 @@ body::-webkit-scrollbar {
         padding-right: 0rem;
         font-size: 12px;
     }
-    img {
-        overflow: hidden;
-    }
+
     .navbar {
         padding: 1rem;
     }
