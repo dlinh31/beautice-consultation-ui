@@ -761,10 +761,17 @@ body::-webkit-scrollbar {
     margin-right: 2rem;
 }
 
-.footer--pages p,
+.footer--pages p{
+    padding-bottom: 0.625rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+}
 .footer--informations p{
     
-    padding-bottom: 0.55rem;
+    padding-bottom: 0.625rem;
     color: rgba(255, 255, 255, 1);
     font-size: 1.125rem;
     line-height: 1.6875rem;
@@ -789,11 +796,14 @@ body::-webkit-scrollbar {
 .footer--informations ul ::before {
     content: '▸';
     color: rgba(215, 219, 255, 1); 
-    margin-right: 0.4rem;
+    margin-right:7px;
 }
 
 
-.footer--pages ul li,
+.footer--pages ul li{
+    margin-bottom: 0.6875rem;
+
+}
 .footer--informations ul li{
     margin-bottom: 0.6875rem;
 }
@@ -944,8 +954,11 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 768px) {
-    img {
+    .footer-bg-container img {
         overflow: hidden;
+        width: 100%;
+        object-fit: cover;
+        
     }
     .navbar {
         padding: 1rem 2rem;
@@ -982,8 +995,8 @@ body::-webkit-scrollbar {
 
     .footer--right{
         align-items: start;
-        margin-top: 3rem;
-        margin-bottom: 2rem;;
+        margin-top: 1rem;
+
     }
 
     .footer--social-icons {
@@ -1002,7 +1015,8 @@ body::-webkit-scrollbar {
         margin-top: 0rem;
     }
     .footer-bg-container{
-        margin-top: -44rem;
+        margin-top: -42rem;
+        max-width: fit-content;
     }
 
 }
