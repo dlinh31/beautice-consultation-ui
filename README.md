@@ -2,7 +2,7 @@
 # Beautice - Clinic and Beauty Consultation
 
 Beautice is a sleek and responsive user interface for a Clinic and Beauty consultation service. 
-It has a pixel-perfect match with a community [Figma design](https://www.figma.com/design/D4GfZoq69kzblUipF6ASjE/Beautice---Clinic-%26-Beauty-Consultation-Website-Design-(Community)?t=sNfLDPc2osw5zMtL-0).
+It has a pixel-perfect match with a [community Figma design](https://www.figma.com/design/D4GfZoq69kzblUipF6ASjE/Beautice---Clinic-%26-Beauty-Consultation-Website-Design-(Community)?node-id=67-108&t=RVuiSs3lRgL8dtyH-0).
 It is built using traditional HTML and CSS, offering a lightweight and efficient design without external libraries.
 
 ## Features
